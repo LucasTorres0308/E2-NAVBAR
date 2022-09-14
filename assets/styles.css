@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Montserrat:wght@800&display=swap');
+
+:root{
+    /*colors*/
+--dark-sienna: #230903ff;
+--uranian-blue: #a5d8ffff;
+--queen-blue: #476c9bff;
+--granny-smith-apple: #aafcb8ff;
+--maximum-green: #548c2fff;
+--rich-black-fogra-39: #090809ff;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Dancing Script";
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/*header*/
+header{
+    background: var(--rich-black-fogra-39);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0px 40px 0px 40px;
+    position: fixed;
+    top: 0;
+}
+
+/*logo*/
+.logo{
+    height: 80%;
+}
+
+/*navbar*/ 
+.navbar{
+    display: flex   ;
+    padding: 0px 50px 0px 50px ;
+}
+
+.navbar-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.navbar-list a{
+    color: var(--uranian-blue);
+    font-size: 40px;
+}
